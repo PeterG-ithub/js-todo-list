@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*top nav bar*/
+.top-nav-container,
+.logo-container {
+  display: flex;
+}
+
+.top-nav-container {
+  background-color: rgb(178, 95, 255);
+  color: white;
+  padding: 1rem;
+  justify-content: space-between;
+}
+
+.logo-container{
+  gap: 1rem;
+}
+
+.add-task-button {
+  color: rgb(0, 0, 0);
+  border: none;
+  background-color: inherit;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.add-task-button:hover {
+  color: rgb(255, 255, 255);
+}
